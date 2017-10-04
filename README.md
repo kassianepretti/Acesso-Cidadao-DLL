@@ -15,11 +15,11 @@ Modo de usar:
     <add key="ClientIdImplicit" value=" xxx " />
 ```
 4. Código do arquivo Startup.cs:
-
+```
 using Microsoft.Owin;
 using Owin;
 using AcessoCidadaoDLL;
-```
+
 [assembly: OwinStartup(typeof(VolumeOferta.MVC.Startup))]
 namespace VolumeOferta.MVC
 {
